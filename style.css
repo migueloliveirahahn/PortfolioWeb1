@@ -41,6 +41,7 @@
    text-decoration: none;
    font-weight: bold;
    transition: color 0.3s;
+   justify-content: right;
 
  }
 
@@ -53,24 +54,6 @@
 
  }
 
- footer {
-   text-align: center;
-   padding: 20px;
-   background-color: rgba(0, 0, 0, 0.5);
- }
-
- footer {
-   background-color: #ffffff;
-   padding: 20px;
-   text-align: center;
- }
-
- footer {
-   background-color: black;
-   padding: 20px;
-   text-align: center;
- }
-
  .card {
    background-color: white;
    color: black;
@@ -79,13 +62,70 @@
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
    width: 300px;
    transition: transform 0.3s;
+   text-align: center;
  }
+
 
  .card-container {
    display: flex;
    gap: 20px;
    flex-wrap: nowrap;
    overflow-x: auto;
-   justify-content: flex-start;
+   justify-content: center;
    margin-bottom: 20px;
  }
+
+ .aside-container {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   flex-wrap: wrap;
+   margin-bottom: 20px;
+ }
+
+ .card img {
+   transition: transform 0.3s;
+ }
+
+ .card img:hover {
+   transform: scale(1.05);
+ }
+footer {
+  background-color: white;
+  color: black;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-contato p {
+  margin: 5px 0;
+  color: black;
+}
+
+.footer-contato a {
+  text-decoration: none;
+  color: #00bfff;
+}
+
+.footer-contato a:hover {
+  text-decoration: underline;
+}
+
+.footer-direitos {
+  font-size: 0.85rem;
+  color: black;
+}
