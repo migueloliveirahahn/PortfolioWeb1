@@ -11,7 +11,6 @@ body {
   text-align: left;
 }
 
-/* Títulos */
 h1 {
   text-align: left;
   color: rgb(0, 0, 0);
@@ -23,7 +22,6 @@ h2, h3 {
   text-shadow: 1px 1px 4px rgb(255, 255, 255);
 }
 
-/* Navegação */
 nav ul {
   list-style: none;
   padding: 0;
@@ -46,7 +44,7 @@ nav a:hover {
   color: grey;
 }
 
-/* Seções e artigos */
+
 section, article {
   background-color: white;
   padding: 20px;
@@ -54,7 +52,7 @@ section, article {
   border-radius: 10px;
 }
 
-/* Cards */
+
 .card {
   background-color: white;
   color: black;
@@ -78,7 +76,7 @@ section, article {
   transform: scale(1.05);
 }
 
-/* Containers */
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -95,7 +93,6 @@ section, article {
   margin-bottom: 20px;
 }
 
-/* Imagens gerais */
 img {
   border: 2px solid #00ccff;
   max-width: 100%;
@@ -103,7 +100,6 @@ img {
   border-radius: 5px;
 }
 
-/* Footer */
 footer {
   background-color: white;
   color: black;
@@ -144,7 +140,7 @@ footer {
   color: black;
 }
 
-/* Navbar */
+
 .navbar {
   display: flex;
   align-items: center;
@@ -186,7 +182,7 @@ footer {
   text-align: center;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
   body {
     padding: 0 5%;
